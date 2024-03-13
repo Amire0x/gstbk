@@ -1,0 +1,9 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "Cargo.toml",
+        "./gs_tbk_scheme/Cargo.toml",
+        "./class_group/Cargo.toml",
+        "./proxy/Cargo.toml",
+        "./proxy/Cargo.toml"
+    ]
+}

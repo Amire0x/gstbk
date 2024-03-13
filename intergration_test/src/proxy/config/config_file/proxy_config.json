@@ -1,0 +1,7 @@
+{
+    "proxy_addr":"127.0.0.1:50000",
+    "threshold_params":{
+        "threshold":2,
+        "share_counts":4
+    }
+}  

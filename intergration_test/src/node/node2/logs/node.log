@@ -1,0 +1,124 @@
+2024-03-12T14:41:54.227274313+08:00 INFO intergration_test::node::node2::node2 - node1 is listening on 127.0.0.1:50002
+2024-03-12T14:41:54.227489085+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-03-12T14:41:59.448147525+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-03-12T14:41:59.457587318+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-03-12T14:41:59.457672880+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is finished!
+2024-03-12T14:41:59.662608424+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseStartFlag
+2024-03-12T14:41:59.830904397+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseOneBroadcastMsg
+2024-03-12T14:41:59.831043749+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is staring!
+2024-03-12T14:41:59.895337567+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_A is generating!
+2024-03-12T14:42:00.002547745+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_B is generating!
+2024-03-12T14:42:00.112392276+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_O is generating!
+2024-03-12T14:42:00.203566576+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_C is generating!
+2024-03-12T14:42:00.276050876+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.277212557+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.307262279+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.310231640+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.377907522+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.383655140+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.384460886+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.389103154+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.391730528+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.396069126+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.396378069+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:00.396695416+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-03-12T14:42:11.725623130+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-03-12T14:42:11.854834048+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_A is generated!
+2024-03-12T14:42:19.535559535+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-03-12T14:42:19.683623313+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_B is generated!
+2024-03-12T14:42:27.313007187+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-03-12T14:42:27.445791910+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_C is generated!
+2024-03-12T14:42:35.576903636+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-03-12T14:42:35.713612205+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_O is generated!
+2024-03-12T14:42:39.316895480+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesKeyGenPhasefiveBroadcastMsg
+2024-03-12T14:42:39.317028627+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is finished!
+2024-03-12T14:42:49.866476072+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg
+2024-03-12T14:42:50.637730043+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:42:50.658795778+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:42:59.643081964+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:42:59.680007147+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:43:07.183481219+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg
+2024-03-12T14:43:07.531744922+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg
+2024-03-12T14:43:07.988098932+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg
+2024-03-12T14:43:08.034204632+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 1's key is generated!
+2024-03-12T14:43:17.307213927+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg
+2024-03-12T14:43:18.158334006+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:43:18.170968274+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:43:27.000591221+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:43:27.107701497+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:43:34.339661694+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg
+2024-03-12T14:43:34.705914346+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg
+2024-03-12T14:43:35.163927014+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg
+2024-03-12T14:43:35.265223436+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 2's key is generated!
+2024-03-12T14:43:41.319597613+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg
+2024-03-12T14:43:42.228397646+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:43:42.245281291+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:43:50.796007002+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:43:50.799014158+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:43:57.964610910+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg
+2024-03-12T14:43:58.320772987+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg
+2024-03-12T14:43:58.796789074+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg
+2024-03-12T14:43:58.955383585+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 3's key is generated!
+2024-03-12T14:44:04.288516315+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg
+2024-03-12T14:44:05.242460341+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:44:05.284435074+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg
+2024-03-12T14:44:13.703832579+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:44:13.719800065+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg
+2024-03-12T14:44:21.131567330+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg
+2024-03-12T14:44:21.476803396+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg
+2024-03-12T14:44:21.935468711+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg
+2024-03-12T14:44:22.141582143+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 4's key is generated!
+2024-03-12T14:44:22.473069605+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg
+2024-03-12T14:44:22.796398112+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg
+2024-03-12T14:44:22.822601197+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg
+2024-03-12T14:44:26.967538665+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg
+2024-03-12T14:44:27.078848289+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg
+2024-03-12T14:44:30.163718915+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg
+2024-03-12T14:44:33.722294356+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg
+2024-03-12T14:44:35.144898658+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg
+2024-03-12T14:44:35.274242587+08:00 WARN node::gs_tbk_scheme::verify_phase - User 3 Node::verify_phase() : invalid signature
+2024-03-12T14:44:35.274395903+08:00 INFO node::gs_tbk_scheme::open_phase - Open Phase is starting
+2024-03-12T14:44:36.931737253+08:00 WARN node::gs_tbk_scheme::verify_phase - User 2 Proxy::verify_phase() : invalid hash
+2024-03-12T14:44:36.931859944+08:00 INFO node::gs_tbk_scheme::open_phase - Open Phase is starting
+2024-03-12T14:44:37.254637311+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg
+2024-03-12T14:44:38.385867820+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg
+2024-03-12T14:44:38.774284386+08:00 INFO node::gs_tbk_scheme::verify_phase - User 4 Node::verify_phase() : verify successfully
+2024-03-12T14:44:38.774473643+08:00 INFO intergration_test::node::node2::node2 - User : 4 has verified
+2024-03-12T14:44:38.941124564+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseOneBroadcastMsg
+2024-03-12T14:44:39.675833102+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseOneBroadcastMsg
+2024-03-12T14:44:40.301371387+08:00 WARN node::gs_tbk_scheme::verify_phase - User 1 Proxy::verify_phase() : invalid hash
+2024-03-12T14:44:40.301566005+08:00 INFO node::gs_tbk_scheme::open_phase - Open Phase is starting
+2024-03-12T14:44:40.585273995+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseTwoBroadcastMsg
+2024-03-12T14:44:40.659039634+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseTwoBroadcastMsg
+2024-03-12T14:44:40.728132254+08:00 INFO node::gs_tbk_scheme::open_phase - Find the user successfully
+2024-03-12T14:44:40.728201572+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:40.728223420+08:00 INFO node::gs_tbk_scheme::open_phase - Find sensetive words in block id 52
+2024-03-12T14:44:40.728242230+08:00 INFO node::gs_tbk_scheme::open_phase - This user 3 maybe malicious!
+2024-03-12T14:44:40.728260433+08:00 INFO node::gs_tbk_scheme::open_phase - The infomation is: 
+2024-03-12T14:44:40.728277410+08:00 INFO node::gs_tbk_scheme::open_phase - user_id:3
+2024-03-12T14:44:40.728294877+08:00 INFO node::gs_tbk_scheme::open_phase - user_name:Alice
+2024-03-12T14:44:40.728314609+08:00 INFO node::gs_tbk_scheme::open_phase - user address:"127.0.0.1:60003"
+2024-03-12T14:44:40.728334248+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:40.728356152+08:00 INFO node::gs_tbk_scheme::open_phase - Open phase is finished!
+2024-03-12T14:44:40.862446247+08:00 INFO node::gs_tbk_scheme::open_phase - Find the user successfully
+2024-03-12T14:44:40.862580640+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:40.862608718+08:00 INFO node::gs_tbk_scheme::open_phase - Find sensetive words in block id 40
+2024-03-12T14:44:40.862626953+08:00 INFO node::gs_tbk_scheme::open_phase - This user 2 maybe malicious!
+2024-03-12T14:44:40.862646558+08:00 INFO node::gs_tbk_scheme::open_phase - The infomation is: 
+2024-03-12T14:44:40.862664047+08:00 INFO node::gs_tbk_scheme::open_phase - user_id:2
+2024-03-12T14:44:40.862681636+08:00 INFO node::gs_tbk_scheme::open_phase - user_name:Bob
+2024-03-12T14:44:40.862701853+08:00 INFO node::gs_tbk_scheme::open_phase - user address:"127.0.0.1:60002"
+2024-03-12T14:44:40.862722620+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:40.862750746+08:00 INFO node::gs_tbk_scheme::open_phase - Open phase is finished!
+2024-03-12T14:44:41.221870754+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseOneBroadcastMsg
+2024-03-12T14:44:41.309080527+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseTwoBroadcastMsg
+2024-03-12T14:44:41.440235315+08:00 INFO node::gs_tbk_scheme::open_phase - Find the user successfully
+2024-03-12T14:44:41.441180799+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:41.441221450+08:00 INFO node::gs_tbk_scheme::open_phase - Find sensetive words in block id 40
+2024-03-12T14:44:41.441236746+08:00 INFO node::gs_tbk_scheme::open_phase - This user 1 maybe malicious!
+2024-03-12T14:44:41.441268897+08:00 INFO node::gs_tbk_scheme::open_phase - The infomation is: 
+2024-03-12T14:44:41.441282122+08:00 INFO node::gs_tbk_scheme::open_phase - user_id:1
+2024-03-12T14:44:41.441294380+08:00 INFO node::gs_tbk_scheme::open_phase - user_name:Bob
+2024-03-12T14:44:41.441311042+08:00 INFO node::gs_tbk_scheme::open_phase - user address:"127.0.0.1:60001"
+2024-03-12T14:44:41.441326840+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-03-12T14:44:41.441344976+08:00 INFO node::gs_tbk_scheme::open_phase - Open phase is finished!
